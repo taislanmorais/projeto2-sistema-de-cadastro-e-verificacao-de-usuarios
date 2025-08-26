@@ -10,10 +10,14 @@ else if (idade >= 13) {
 let senha = prompt("digite sua senha")
  
 alert("login realizado com susesso!")
-}
 
 //login 
 
 let nomeConfirmado = prompt("Digite seu nome novamente.")
 let senhaConfirmado = prompt("Digite sua senha novamente")
+
+if (nomeConfirmado === nome && senhaConfirmado === senha) {
+alert(`Login realizado com sucesso! Bem-vindo ${nome}`)
+}
+}
 
