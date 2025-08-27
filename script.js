@@ -4,12 +4,12 @@ let idade =  parseInt(prompt("Digite sua idade"))
 
  //confirmar idade do usuário
 if  (idade < 13) {
-alert("cadastro invalido, idade insuficiente.")
+alert("Cadastro invalido, idade insuficiente.")
 }
 else if (idade >= 13) {
-let senha = prompt("digite sua senha")
+let senha = prompt("Digite sua senha")
  
-alert("login realizado com susesso!")
+alert("Cadastro realizado com susesso!")
 
 //login 
 
@@ -18,6 +18,8 @@ let senhaConfirmado = prompt("Digite sua senha novamente")
 
 if (nomeConfirmado === nome && senhaConfirmado === senha) {
 alert(`Login realizado com sucesso! Bem-vindo ${nome}`)
+}else{
+    alert("Nome ou senha incorretos. Tente novamente.")
 }
 }
 
